@@ -46,7 +46,7 @@ namespace AIE_Assessment_Exercise_05
                 isSorted = true;
                 for (int i = 0; i < numbers.Length - 1; i++)
                 {
-                    if (numbers[i] < numbers[i + 1])
+                    if (numbers[i] > numbers[i + 1])
                     {
                         Swap(numbers, i, i + 1);
                         isSorted = false;
